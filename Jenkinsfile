@@ -1,5 +1,5 @@
 pipeline{
-    agent {label 'sonar'}
+    agent {label 'docker'}
     stages{
        stage('Git Checkout Stage'){
             steps{
